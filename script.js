@@ -12,16 +12,12 @@ const generateColor = () => {
     outColor.value = `#${color}`;
 
 }
-
 document.getElementById('btnG').addEventListener('click', generateColor)
 
 
 //Copied modal window
-
 function showCopy() { document.getElementById('modalCopied').style.visibility = 'visible'; }
-
 function hideCopy() { document.getElementById('modalCopied').style.visibility = 'hidden'; }
-
 
 //copy color
 outColor.addEventListener('click', () => {
